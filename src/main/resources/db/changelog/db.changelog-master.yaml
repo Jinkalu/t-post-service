@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: /changes/post.sql
+      relativeToChangelogFile: true
+  - include:
+      file: /changes/media.sql
+      relativeToChangelogFile: true
