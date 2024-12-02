@@ -73,7 +73,7 @@ public class PostController {
             files.forEach(file -> fileNames.append(file.getOriginalFilename()).append(", "));
         }
         log.info("Parsed Data: {}", data != null ? data.toString() : "No data");
-        return ResponseEntity.ok("Files uploaded successfully: " + fileNames.toString());
+        return ResponseEntity.ok("Files uploaded successfully: " + fileNames);
     }
 
 
